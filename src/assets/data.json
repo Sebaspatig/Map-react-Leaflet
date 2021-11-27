@@ -17,6 +17,14 @@
             ]
         },
         {
+            "description": "Bienvenidos a la Casa de Cultura El Poblado ¡Esta es tu casa! Aquí puedes conocer nuestra oferta artística y cultural ¡Desde El Poblado para el mundo!",
+            "name": "Casa de Cultura El Poblado",
+            "geometry": [
+                6.214060685951023, 
+                -75.57050798465924
+            ]
+        },
+        {
             "description": "El Centro de innovación y negocios de Medellín. Busca que la innovación sea el principal dinamizador de la economía de la ciudad, mejorando la calidad de vida de sus habitantes.",
             "name": "Ruta N",
             "geometry": [

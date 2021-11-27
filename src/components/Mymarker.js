@@ -16,9 +16,9 @@ export default function Mymarker(props) {
         } 
     }
 
-    useEffect(()=>{
-        console.log(position)
-    },[position])
+    // useEffect(()=>{
+    //     console.log(position)
+    // },[position])
 
   
 
@@ -34,12 +34,11 @@ export default function Mymarker(props) {
                 draggable={draggable}
                 ondragend={eventHandlers}
                 position={position}
-                ref={markerRef}>
+                ref={markerRef}
+                onClick={toggleDraggable}>
                 <Popup minWidth={90}>
-                <span onClick={toggleDraggable}>
-                    {draggable
-                    ? 'Marker is draggable'
-                    : 'Click here to make marker draggable'}
+                <span >
+                 Esta es tu posición aproximada
                 </span>
                 </Popup>
             </Marker>
