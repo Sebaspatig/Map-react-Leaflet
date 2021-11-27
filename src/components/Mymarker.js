@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Marker, Popup } from "react-leaflet";
-import { VenueLocationIcon } from "./VenueLocationIcon";
+import { MymarkerIcon } from "./VenueLocationIcon";
 
 
 export default function Mymarker(props) {
@@ -30,7 +30,7 @@ export default function Mymarker(props) {
         <>
         {sites.geometry !== undefined?
 
-            <Marker key={sites.name} icon={VenueLocationIcon} 
+            <Marker key={sites.name} icon={MymarkerIcon} 
                 draggable={draggable}
                 ondragend={eventHandlers}
                 position={position}

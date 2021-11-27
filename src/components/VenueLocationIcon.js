@@ -10,3 +10,15 @@ export const VenueLocationIcon = L.icon({
   iconSize: [35, 35],
   className: "leaflet-venue-icon",
 });
+
+export const MymarkerIcon = L.icon({
+  iconUrl: require("../assets/MyLocation-icon.svg"),
+  iconRetinaUrl: require("../assets/MyLocation-icon.svg"),
+  iconAnchor: null,
+  shadowUrl: null,
+  shadowSize: null,
+  shadowAnchor: null,
+  iconSize: [45, 45],
+  className: "leaflet-venue-icon",
+
+});
