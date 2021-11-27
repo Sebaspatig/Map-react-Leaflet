@@ -1,0 +1,44 @@
+{
+    "venues": [
+        {
+            "description": "El Jardín Botánico de Medellín Joaquín Antonio Uribe es un jardín botánico de unas 13.2 hectáreas de extensión, ubicado en la ciudad colombiana de Medellín. Cuenta con un recinto para eventos llamado el Orquideorama, un lugar arquitectónico para la exposición de flores ",
+            "name": "Jardin Botanico Medellin",
+            "geometry": [
+                6.27083333, 
+                -75.56416667
+            ]
+        },
+        {
+            "description": "El Parque Explora es un museo interactivo de ciencias en Medellín, Colombia, modelado a la ligera del Exploratorio de San Francisco. Alberga el acuario de agua dulce más grande de Sudamérica, Explora Aquarium",
+            "name": "Parque Explora",
+            "geometry": [
+                6.2705555555556, 
+                -75.565555555556
+            ]
+        },
+        {
+            "description": "El Centro de innovación y negocios de Medellín. Busca que la innovación sea el principal dinamizador de la economía de la ciudad, mejorando la calidad de vida de sus habitantes.",
+            "name": "Ruta N",
+            "geometry": [
+                6.264961860476885, 
+                -75.56659570661405
+            ]
+        },
+        {
+            "description": "Es un lugar con un espacio abierto, ideal para familias, la biblioteca tiene muchos programas tanto para adultos como para niños. Es agradable y han hecho una buena gestión.",
+            "name": "Biblioteca Pública y Parque Cultural Débora Arango",
+            "geometry": [
+                6.172360684432917, 
+                -75.59047935786836
+            ]
+        },
+        {
+            "description": "Pintoresco parque con rutas y actividades, como una pista de skate, un rocódromo y un parque infantil.",
+            "name": "Parque Ecoturistico El Salado",
+            "geometry": [
+                6.138803115873077, 
+                -75.56812552816972
+            ]
+        }
+    ]
+}
