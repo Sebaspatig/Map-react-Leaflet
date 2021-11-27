@@ -1,4 +1,4 @@
-# Geolocalizacion
+# Geolocalizacion con React-leaflet
 
 Proyecto para crear geolocalizacion a traves de React-Leaflet y asi encontrar lugares de interes del usuario.
 
