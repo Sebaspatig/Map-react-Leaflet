@@ -8,10 +8,10 @@ Proyecto para crear geolocalizacion a traves de React-Leaflet y asi encontrar lu
 - Express JS
 - React
 - VS code
-- SASS
+- CSS
 
 ## Colaboradores
 
-- Sebastian Patiño -> [Link de Github](https://github.com/Sebaspatig)
+- Sebastián Patiño Giraldo -> [Link de Github](https://github.com/Sebaspatig)
 
 > **Nota:** La pagina se seguira actualizando constantemente.

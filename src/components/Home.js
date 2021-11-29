@@ -1,43 +1,17 @@
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useContext } from "react";
+import { AppContext } from "../Context/AppContext";
+import MapView from "./MapView";
 
 const Home = () => {
-  const [state, setstate] = useState({
-    longitude: 0,
-    latitude: 0,
-  });
-
-  useEffect(() => {
-    navigator.geolocation.getCurrentPosition(
-      function (position) {
-        setstate({
-          longitude: position.coords.longitude,
-          latitude: position.coords.latitude,
-        });
-      },
-      function (error) {
-        console.error("Error Code = " + error.code + " - " + error.message);
-      },
-      {
-        enableHighAccuracy: true,
-      }
-    );
-  }, []);
+  const {myposition} = useContext(AppContext);
 
   return (
     <div>
-      <h1>Geolocation</h1>
-      <p>Latitude: {state.latitude}</p>
-      <p>longitude: {state.longitude}</p>
+      <h1>My Geolocation</h1>
+      <p>Latitude: {myposition.lat}</p>
+      <p>longitude: {myposition.lng}</p>
 
-      <Link
-        to={{
-          pathname: "/map",
-          state,
-        }}
-      >
-        See marker
-      </Link>
+      <MapView/>
     </div>
   );
 };
