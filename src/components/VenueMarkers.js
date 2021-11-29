@@ -7,8 +7,7 @@ import { AppContext } from "../Context/AppContext";
 
 const VenueMarkers = () => {
   const {sitiosCercanos} = useContext(AppContext);
-  const sitios = data.venues;
-  console.log(sitiosCercanos)
+  const sitios = sitiosCercanos?sitiosCercanos:data.venues;
   const markers = sitios.map((venue, i) => (
     <Marker key={venue.name} position={venue.geometry} icon={VenueLocationIcon}>
     <MarkerPopup data={venue} />

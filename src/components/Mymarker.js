@@ -4,8 +4,9 @@ import { AppContext } from '../Context/AppContext';
 import { MymarkerIcon } from "./VenueLocationIcon";
 
 
+
 export default function Mymarker() {
-    const {myposition, setMyPosition} = useContext(AppContext);
+    const {myposition, setMyPosition, Sitios, setSitiosCercanos} = useContext(AppContext);
     const [position, setPosition] = useState(myposition)
     const markerRef = useRef(null)
 
@@ -14,6 +15,7 @@ export default function Mymarker() {
         if (marker != null) {
           setPosition(marker)
           setMyPosition(marker)
+          setSitiosCercanos(Sitios)
         } 
     }
     
